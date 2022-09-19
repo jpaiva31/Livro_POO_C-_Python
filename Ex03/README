@@ -1,0 +1,4 @@
+"Em python, escreva uma classe TRANSPORTE, sem construtor, com um método chamado MOSTRAR. O método MOSTRAR irá imprimir na tela a mensagem 'Transporte apresentado'
+
+Crie uma classe CAMINHAO que herde a classe TRANSPORTE. A classe CAMINHAO precisa ter um construtor que receba o modelo do caminhão como parâmetro e o armazene.
+A classe CAMINHAO sobrescreve o método MOSTRAR e imprime a mensagem 'Caminhao modelo' e o nome do modelo em seguida."
