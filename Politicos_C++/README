@@ -1,4 +1,5 @@
-INCOMPLETO
 "Utilize os códigos apresentados no capítulo 7 para este projeto. Político não trabalha de graça. Todos os cargos apresentados são remunerados.
 Entretanto, nosso código não previu este fato. Crie na classe-base um atributo SALARIO, um método setSalario(float) e um metodo getSalario() retornando float.
 Faça uso do método setSalario no construtor das classes derivadas(o salário de cada cargo fica a seu critério) e do método getSalario() no metodo apresentacao().
+
+Fiz tudo no mesmo arquivo pois tive dificuldade de fazer o código do livro rodar separado em bibliotecas.
