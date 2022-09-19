@@ -4,6 +4,7 @@ class Politico():
         self.partido = ""
         self.estado = ""
         self.funcao = ""
+        self.salario = 0
     def setNome(self,nome):
         self.nome=nome
     def setPartido(self,partido):
@@ -12,6 +13,10 @@ class Politico():
         self.estado = estado
     def setFuncao(self,funcao):
         self.funcao = funcao
+    def setSalario(self, salario):
+        self.salario = salario
+    def getSalario(self):
+        return self.salario
     def getNome(self):
         return self.nome
     def getPartido(self):
