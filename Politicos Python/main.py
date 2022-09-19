@@ -1,4 +1,6 @@
-from Politico import Politico
+from Vereador import Vereador
 from Prefeito import Prefeito
-pres = Prefeito("aa", "bb","cc","dd")
-pres.apresentacao()
+pref = Prefeito("aa", "bb","cc","dd")
+pref.apresentacao()
+ver = Vereador("ee", "ff","gg","hh")
+ver.apresentacao()
