@@ -1,0 +1,3 @@
+"Refatorar é o processo de modificar um sistema de software para melhorar a estrutura interna.
+Com base no projeto apresentado no capítulo 6, vamos refatorar o seguinte código, visando tornar os objetos mais "independentes",
+enfatizando a troca de mensagens. Nesse projeto, devemos utilizar como base o diagrama de sequencias mostrado na figura"
