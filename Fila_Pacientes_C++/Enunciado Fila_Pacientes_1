@@ -1,0 +1,36 @@
+"Neste projeto, um objeto do tipo FilaAtendimento gerencia internamente uma lista de objetos dos tipos Pessoas.
+Esta classe cpontém os métodos para adicionar pacientes(incluir no fim da fila), atender(Remover Pessoa do inicio da fila) e mostrar a fila atual. O trecho do código
+main.cpp é apresentado a seguir: 
+
+'   filaAtendimento fila;
+    fila.mostrarFila();
+    fila.adicionar("Orlando", 34);
+    fila.adicionar("Maria", 64);
+    fila.adicionar("Ana", 33);
+    fila.adicionar("Lucas", 4);
+    fila.adicionar("Paulo", 65);
+    fila.adicionar("Ilma", 70);
+    fila.atender();
+    fila.atender();
+    fila.mostrarFila(); '
+
+Entretanto, para cumprir a lei do idoso, pessoas com mais de 60 anos devem ter atendimento prioritário. Assim, a classe FilaAtendimento deve gerenciar duas filas:
+uma para atendimento normal e outra para atendimentos prioritários. Faça as alterações necessárias, de forma que a saída do seu programa seja próxima à saída à seguir:
+
+'Construtor da Fila
+Lista vazia!
+
+Atendendo Maria - 64 anos - Atendimento preferencial
+Atendendo Paulo - 65 anos - Atendimento preferencial
+
+Os pacientes com atendimento preferencial nao atendidos:
+Nome: Ilma  Idade: 70 anos
+
+
+Os pacientes nao atendidos ainda
+Nome: Orlando idade : 34
+Nome: Ana  idade : 33
+Nome : Lucas idade : 4
+Destrutor da fila
+Lista vazia!
+
