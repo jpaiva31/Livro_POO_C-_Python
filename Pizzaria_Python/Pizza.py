@@ -47,6 +47,10 @@ class pizza(catupiry, cheddar, frango,peito_Peru):
             self.sabor2 = peito_Peru()
             self.recheio2 = catupiry()
             self.preco2 = [37.2,43.20,49.80]
+        if sabor2 == None:
+            print("PORRA")
+            self.sabor2 = [0,0,0]
+            self.recheio2 = ' '
         self.setNome()
 
 
@@ -57,17 +61,24 @@ class pizza(catupiry, cheddar, frango,peito_Peru):
     def getPreco1(self, tam):
         return self.preco1[tam]
     def getPreco2(self, tam):
-        return self.preco2[tam]
+        if self.preco2==[0,0,0]:
+            return self.preco2[tam]
+        else:
+            return 0
     def getTam(self):
         return self.tam
     def getPreco(self):
-        return (self.getPreco1(self.getTam())+self.getPreco2(self.getTam()))/2
+        try:
+            return (self.getPreco1(self.getTam())+self.getPreco2(self.getTam()))/2
+        except:
+            return self.getPreco1(self.getTam())
+
     def setNome(self):
         if self.recheio1 == ' ':
             self.nome = self.sabor1.getSabor()
         else:
             self.nome = self.sabor1.getSabor() + " com " + self.recheio1.getSabor()
-        if self.sabor2 != None:
+        if self.sabor2 != [0,0,0]:
             self.nome += " e "
             if self.recheio2 == ' ':
                 self.nome += self.sabor2.getSabor()
